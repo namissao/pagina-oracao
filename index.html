@@ -1,12 +1,29 @@
 
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <title>Tenda do Clamor 🙏</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedidos de Oração</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <h1>📖 Envie seu pedido de oração</h1>
-    <p>Em breve esta página estará ativa com um formulário e uma planilha integrada.</p>
+    <header>
+        <h1>Pedidos de Oração</h1>
+        <p>Junte-se a nós em oração pelos nossos missionários e projetos.</p>
+        <div id="global-counter">
+            <img src="icons/bonequinho.svg" alt="Intercessores" width="24" />
+            <span id="intercessor-count">3.452</span> intercessores
+        </div>
+    </header>
+    <main id="pedidos-container">
+        <!-- Os pedidos serão inseridos aqui via JavaScript -->
+    </main>
+    <section id="downloads">
+        <h2>Baixe os pedidos em PDF</h2>
+        <a href="pdfs/pedidos-mensal.pdf" download>📄 Pedido Mensal</a>
+        <a href="pdfs/pedidos-diario.pdf" download>📄 Pedido Diário</a>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
