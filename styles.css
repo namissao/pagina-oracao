@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 1rem;
+}
+header {
+    text-align: center;
+}
+#pedidos-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.pedido {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+.pedido:hover {
+    transform: scale(1.01);
+}
+.orar-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ff7f00;
+}
+.orar-btn svg {
+    fill: none;
+    stroke: #ff7f00;
+    width: 24px;
+    height: 24px;
+    transition: fill 0.3s;
+}
+.orar-btn.clicked svg {
+    fill: #ff7f00;
+}
+#downloads {
+    margin-top: 3rem;
+}
